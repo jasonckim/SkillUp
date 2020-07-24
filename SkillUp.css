@@ -1,0 +1,346 @@
+.title {
+  font-size: calc(1.425rem + 2.1vw);
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+a, a.nav-link {
+  color: black !important;
+}
+a:hover {
+  color: #FF6700 !important;
+}
+a:link, a:visited, a:active {
+  text-decoration: none !important;
+}
+
+.about-text-column, .parallax-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+}
+
+.gray-header-lg {
+  color: #798696;
+  font-size: 1.1875rem;
+}
+
+.gray-header-sm {
+  color: #798696;
+  font-size: 0.9375rem;
+}
+
+.about-text-header {
+  color: #000000;
+  font-size: 1rem;
+}
+
+.about-content {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: "Montserrat";
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.course-price-free {
+  color: green;
+  font-size: 0.9375rem;
+  float: right;
+}
+
+.course-price-premium {
+  color: #FF6700;
+  font-size: 0.9375rem;
+  float: right;
+}
+
+.footer-icons-text {
+  color: #798696;
+  font-size: 0.9375rem;
+  font-family: "Montserrat";
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%), url("https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: top-center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  font-family: "Montserrat";
+}
+@media screen and (max-width: 576px) {
+  .jumbotron {
+    height: 50vh;
+  }
+}
+
+.parallax-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("https://jasonkim-media.s3-us-west-1.amazonaws.com/Projects/images/Skill+Up/bg-parallax3.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.parallax2-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("https://jasonkim-media.s3-us-west-1.amazonaws.com/Projects/images/Skill+Up/cta2-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+
+.start-cta {
+  height: 40px;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #FF6700;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  padding: 8px 30px;
+}
+.start-cta:hover {
+  background-color: #fff;
+  color: #FF6700;
+}
+
+.courses-cta {
+  height: 40px;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #FF6700;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: transparent;
+  padding: 6px, 30px;
+}
+.courses-cta:hover {
+  background-color: #fff;
+  color: #FF6700;
+  border-color: #FF6700;
+}
+
+body {
+  min-width: fit-content;
+  padding-top: 0;
+}
+
+/* fix padding under menu after resize */
+@media screen and (max-width: 422px) {
+  img.course-image {
+    width: 210px;
+  }
+
+  span.course-category {
+    font-size: 0.875rem;
+  }
+
+  span.course-price-free {
+    font-size: 0.875rem;
+  }
+
+  span.course-price-premium {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (max-width: 422px) {
+  body {
+    padding-top: 85px;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    left: 22px;
+  }
+
+  .about-content-layout {
+    text-align: center;
+  }
+
+  .welcome-header {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 422px) and (max-width: 500px) {
+  body {
+    padding-top: 85px;
+  }
+
+  img.course-image {
+    width: 236px;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    left: 22px;
+  }
+
+  .about-content-layout {
+    text-align: center;
+  }
+
+  .welcome-header {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 576px) {
+  body {
+    padding-top: 85px;
+  }
+
+  img.course-image {
+    width: 303px;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    left: 22px;
+  }
+
+  .about-content-layout {
+    text-align: center;
+  }
+
+  .welcome-header {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    padding-top: 38px;
+  }
+
+  .about-content-layout {
+    text-align: center;
+  }
+
+  .welcome-header {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    padding-top: 0;
+  }
+
+  img.course-image {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    padding-top: 0;
+  }
+
+  img.course-image {
+    width: 230px;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  display: inline;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.about-header {
+  font-size: 1.875rem;
+  font-family: "Montserrat";
+}
+
+.about-icons {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.site-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: inline;
+}
+
+.about-text {
+  font-family: "Source Sans Pro";
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.courses-header {
+  text-align: center;
+  color: #000000;
+  width: 100%;
+  font-family: "Montserrat";
+}
+
+.course-title {
+  font-family: "Lato";
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.course-image {
+  width: 260px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.course-details {
+  border-top: 1px solid #EBEBEB;
+  width: 100%;
+  padding-top: 10px;
+  font-family: "Montserrat";
+  font-weight: 400px;
+  font-size: 0.9375rem;
+}
+
+.icon-links {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-col {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=SkillUp.css.map */
